@@ -6,6 +6,6 @@
 
 .header__title {
   color: #5d463b;
-  font-size: 3rem;
-  line-height: 10rem;
+  font-size: 3.2rem;
+  padding-top: calc(5vh - 1.6rem);
 }

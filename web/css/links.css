@@ -1,0 +1,21 @@
+.links {
+  position: relative;
+  left: 1rem;
+  width: calc(100% - 2rem);
+}
+
+.links__link {
+  display: block;
+  border-radius: 1.5rem;
+  border: 2px solid #7a5a4c;
+  background-color: #f8dca7;
+  font-size: 1.6rem;
+  padding: 1.2rem;
+  margin: 1rem 0;
+}
+
+.links__link:hover {
+  background-image: linear-gradient(#f8dca7, #fad185);
+  cursor: pointer;
+}
+

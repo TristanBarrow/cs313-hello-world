@@ -3,8 +3,8 @@
   width: 90vw;
   height: 80vh;
   left: 5vw;
-  background-color: #d4794d;
-
+  border-radius: 5px;
+  background-image: linear-gradient(to top left, #c26f46,  #ec8755);
 }
 
 .body__title {
@@ -30,9 +30,11 @@
   color: #f8dca7;
   border: none;
   background-color: #5d463b;
-
 }
-
+.body__links {
+  overflow: scroll;
+  height: 70vh;
+}
 .body__button--left {
   left: 1rem;
 }
@@ -46,3 +48,5 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
