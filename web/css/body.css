@@ -1,9 +1,11 @@
 .body {
   position: relative;
-  width: 90vw;
+  left: 50%;
+  transform: translate(-50%);
   height: 80vh;
-  left: 5vw;
   border-radius: 5px;
+  min-height: 40rem;
+  max-width: 70rem;
   background-image: linear-gradient(to top left, #c26f46,  #ec8755);
 }
 
