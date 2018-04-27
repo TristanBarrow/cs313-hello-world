@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, sans-serif;
+  background-color: #f8dca7;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #5d463b;
+}
+
+/*
+  COLORS:
+
+  DARK: 
+    Dark Brown: #5a483f
+    Dark Brown Saturated: #5d463b
+  MID:
+    Copper: #c77e5b
+    Copper Saturated: #d4794d
+  LIGHT:
+    Tan: #f0dab0
+    Tan Saturated: #f8dca7
+*/

@@ -1,0 +1,11 @@
+.header {
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+}
+
+.header__title {
+  color: #5d463b;
+  font-size: 3rem;
+  line-height: 10rem;
+}

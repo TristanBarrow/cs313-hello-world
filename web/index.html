@@ -1,12 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <link rel='stylesheet' href='./css/index.css' />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src='./javascript/script.js' ></script>
+  <title>Tristan's cs313 Home Page</title>
 </head>
 <body>
-  <h1>Hello World</h1>
+
+  <div class='header'>
+    <h1 class="header__title">Tristan's cs313 Home Page</h1>
+  </div>
+
+  <div class='body'>
+    <h1 class='body__title'>Please Look through links to my Assignments</h1>
+    <div class="body__window"></div>
+    <button class='body__button body__button--left' onclick='buttonClick()'>button</button>
+    <input id="colorInput" type="text"></input>
+    <button class='body__button' onclick='buttonClick()'>other button</button>    
+  </div>
+
+  <div class='footer'>
+    <h1 class="footer__title">Footer</h1>
+    
+  </div>
+  
+
 </body>
 </html>
