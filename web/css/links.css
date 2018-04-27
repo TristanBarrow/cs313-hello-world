@@ -19,3 +19,8 @@
   cursor: pointer;
 }
 
+.links__link:link {
+  color: #7a5a4c;
+  text-decoration: none;
+}
+
