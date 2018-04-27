@@ -23,4 +23,7 @@
   color: #7a5a4c;
   text-decoration: none;
 }
-
+.links__link:visited {
+  color: #caa08f;
+  text-decoration: none;
+}
