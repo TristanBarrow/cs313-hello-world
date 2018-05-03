@@ -7,6 +7,9 @@
   <title>Document</title>
 </head>
 <body>
-  my page 2
+<?php 
+    include './php/header.php';
+  ?>
+  <h1>This is my home</h1>
 </body>
 </html>
