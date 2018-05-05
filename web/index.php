@@ -9,6 +9,9 @@
       rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src='./javascript/script.js' ></script>
+  <?php 
+    require("./php/functions.php");
+  ?>
   <title>Tristan's cs313 Home Page</title>
 </head>
 <body>
@@ -29,7 +32,9 @@
   <div class='footer'>
     <p class='thankyou'>Thank You for viewing My Assignments</p>
   </div>
-  <i class='material-icons'>event_seat<i>
+  <?php
+    MatIcon("list");
+  ?>
 
 
 </body>
