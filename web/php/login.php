@@ -10,7 +10,7 @@
 <body>
   <?php 
     $activePage = "Login";
-    include './header.php';
+    include './../home.php';
   ?>
   <h1>This is my home</h1>
 </body>
