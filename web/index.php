@@ -5,6 +5,8 @@
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <meta http-equiv='X-UA-Compatible' content='ie=edge'>
   <link rel='stylesheet' href='./css/index.css' />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src='./javascript/script.js' ></script>
   <title>Tristan's cs313 Home Page</title>
@@ -22,17 +24,12 @@
           <?php require("./php/links.php"); ?>
         </div>
     </div>
-
-    <?php 
-      
-    ?>
-
   </div>
 
   <div class='footer'>
     <p class='thankyou'>Thank You for viewing My Assignments</p>
   </div>
-
+  <i class='material-icons'>event_seat<i>
 
 
 </body>
