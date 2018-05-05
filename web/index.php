@@ -19,15 +19,21 @@
     <h1 class='body__title'>My Assignments</h1>
     <div class="body__links">
         <div class='links'>
-          <a class='links__link' href='./php/hello-world.php'>Hello World</a>
+          <?php require("./php/links"); ?>
         </div>
     </div>
+
+    <?php 
+      
+    ?>
 
   </div>
 
   <div class='footer'>
     <p class='thankyou'>Thank You for viewing My Assignments</p>
   </div>
+
+
 
 </body>
 </html>
