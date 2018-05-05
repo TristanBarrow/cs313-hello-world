@@ -26,9 +26,8 @@
   </div>
 
   <div class='footer'>
-    <p class='thankyou'>Thank You for viewing my Assignments</p>
+    <p class='thankyou'>Thank You for viewing My Assignments</p>
   </div>
-  
 
 </body>
 </html>
