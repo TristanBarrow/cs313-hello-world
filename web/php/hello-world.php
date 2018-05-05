@@ -8,8 +8,13 @@
 </head>
 <body>
   <?php 
+    
     for ($x = 0; $x < 10; $x++) {
-      echo "<div>mydiv$x</div>";
+      echo "<div";
+      if ($x % 2 == 0) {
+        echo " style='color:red'";
+      }
+      echo ">mydiv$x</div>";
     }
   ?>
 </body>
