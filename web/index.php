@@ -24,7 +24,7 @@
     <div class="body__links">
         <div class='links'>
           <?php require("./php/links.php"); ?>
-          <img class='links__image' src="./res/images/react-redux.jpg" alt="White Fish Ski Area">
+          <img class='links__image' src="./res/images/react-redux.jpg" alt="react-redux">
         </div>
     </div>
   </div>

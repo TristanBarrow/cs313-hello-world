@@ -29,10 +29,14 @@
 }
 
 .links__image {
-  border: 5px solid black;
+  border: 2px solid black;
   border-radius: 2rem;
   width: 20%;
   left: 50%;
   position: relative;
   transform: translateX(-50%);
+}
+
+.links__image:hover {
+  border: 5px solid black;
 }
