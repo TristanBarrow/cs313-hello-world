@@ -1,5 +1,5 @@
 var imgClick = function() {
   console.log('clicked'); 
-  document.getElementById("showILoveReact").innerHTML = "This is the logo for React, my favorite javascript framework";
+  document.getElementById("showILoveReact").innerHTML = "This is the logo for React. It is favorite javascript framework.";
 };
 
