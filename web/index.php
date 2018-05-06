@@ -24,18 +24,15 @@
     <div class="body__links">
         <div class='links'>
           <?php require("./php/links.php"); ?>
-          <img class='links__image' src="./res/images/react-redux.jpg" alt="react-redux">
+          <img onclick='imgClick' class='links__image' src="./res/images/react-redux.jpg" alt="react-redux">
         </div>
+        <div id='showILoveReact'></div>
     </div>
   </div>
 
   <div class='footer'>
     <p class='thankyou'>Thank You for viewing My Assignments</p>
   </div>
-  <?php
-    MatIcon("list");
-  ?>
-
 
 </body>
 </html>

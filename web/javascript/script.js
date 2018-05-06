@@ -1,4 +1,4 @@
-var buttonClick = function() {
-  var hexCode = document.getElementById("colorInput").value;
-  console.log(hexCode);
+var imgClick = function() {
+  document.getElementById("showILoveReact").value = "This is the logo for React, my favorite javascript framework";
 };
+
