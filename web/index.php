@@ -25,7 +25,7 @@
     <div class="body__links">
         <div class='links'>
           <?php require("./php/links.php"); ?>
-          <img src="./res/images/white-fish.JPG" alt="White Fish Ski Area">
+          <img class='links__image' src="./res/images/white-fish.JPG" alt="White Fish Ski Area">
         </div>
     </div>
   </div>
