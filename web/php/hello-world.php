@@ -8,7 +8,6 @@
 </head>
 <body>
   <?php 
-    
     for ($x = 0; $x < 10; $x++) {
       echo "<div";
       if ($x % 2 == 0) {
