@@ -29,5 +29,5 @@
 }
 
 .links__image {
-  width: 100%;
+  border: 5px solid black;
 }
