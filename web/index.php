@@ -24,7 +24,7 @@
     <div class="body__links">
         <div class='links'>
           <?php require("./php/links.php"); ?>
-          <img onclick='imgClick' class='links__image' src="./res/images/react-redux.jpg" alt="react-redux">
+          <img onclick='imgClick()' class='links__image' src="./res/images/react-redux.jpg" alt="react-redux">
         </div>
         <div id='showILoveReact'></div>
     </div>
