@@ -6,18 +6,23 @@ https://cs313-tristan-barrow-homepage.herokuapp.com/
 
 2. Copy and paste the URL for your source code repository (e.g., GitHub):
 
-
+https://github.com/TristanBarrow/cs313-home-page/tree/master/web
 
 3. Briefly list and describe the elements of the application that are functioning. Include any special instructions about how to login and/or use your application.
 
+It shows a dynamic list of my assignments. It shows an image which will bring up a small message about the image.
 
 4. Briefly describe any pieces of the assignment that are not yet working correctly.
 
+I would like to change the content of the "My Assignments" box by clicking a logo in the corner.
 
 5. Briefly describe the "coolest" thing you learned while completing this assignment.
 
+PHP can be componet based.
+
 6. What is the difference between an HTTP Get and Post? When should each be used?
 
+HTTP Get usually does not include a body and is asking for information. HTTP Post is used to send data to the server.
 
 7. Please select the category you feel best describes your assignment:
 A - Some attempt was made
@@ -26,6 +31,9 @@ C - Slightly deficient, but still mostly adequate
 D - Meets requirements
 E - Shows creativity and excels above and beyond requirements
 
+D Best describes my assignment.
 
 8. Provide a brief justification (1-2 sentences) for selecting that category.
 
+I want my home page to be simple and easy to use. I added the image and some PHP to meet requirements but 
+other wise I was satisfied with it being only html and css.
