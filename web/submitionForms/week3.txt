@@ -1,0 +1,41 @@
+After completing the assignment, please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your web application:
+
+Heroku is currently unavaliable. My old site is still hosted but I cannot push to heroku for some reason on their end.
+
+2. Copy and paste the URL for your source code repository (e.g., GitHub):
+
+https://github.com/TristanBarrow/cs313-home-page/tree/master/web/shopping-cart
+
+3. Briefly list and describe the elements of the application that are functioning. Include any special instructions about how to login and/or use your application.
+
+Currently the only thing that works is adding things to the cart on the client side. I will soon sent that data up to the server
+and update the server using the client data. Once that is done, I will display that data on the cart page. It will also add up 
+the price of the items.
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+
+Most of it. I will re-submit a file after working on it for a bit more time.
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+
+I learned about global varibles and session varibles which helped a ton.
+
+6. List one strength and one limitation of using cookies.
+
+Strength: cookies let you easily identify a returning user.
+Limitation: cookies can be removed by the client.
+
+7. Please select the category you feel best describes your assignment:
+A - Some attempt was made
+B - Developing, but significantly deficient
+C - Slightly deficient, but still mostly adequate
+D - Meets requirements
+E - Shows creativity and excels above and beyond requirements
+
+D - I feel like I amd in category D.
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+I am in category D because I went beyond requirements but I also was late quite a bit on my assignment.
+I should focus first on my assignment then on helping others next time.
