@@ -9,9 +9,12 @@
 <body>
   <?php
     session_start();
-    $_SESSION["cart"] = $json;
+    require("./Item-class.php");
+    require("../cradle/items.php");
+    $json = $_SESSION["cart"];
+    echo $_SESSION["test"];
     foreach ($json as $j) {
-      echo $j['name'] . " " . $j['count'];
+      echo $j->getName();
     }
   ?>
 </body>
