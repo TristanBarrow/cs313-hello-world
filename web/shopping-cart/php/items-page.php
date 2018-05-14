@@ -19,12 +19,12 @@
     require("./u-ratings.php");
     foreach ($items as $item) {
       require("./item.php");
-      $_SESSION[$item->getName()];
     }
 
   ?> 
-  </div>
 
+  </div>
+  <button onclick="onSubmit()">Go to Cart</button>
 </body>
 </html>
 

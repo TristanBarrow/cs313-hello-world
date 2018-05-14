@@ -61,6 +61,9 @@ var onSubmit = function() {
       type: 'POST',
       url: "../php/addToCart.php",
       data: JSON.stringify(items),
-      success: function(result) { console.log(result); }
+      success: function(result) { 
+        console.log(result);
+        window.location = "../php/cart-page.php";
+      }
   });
 }
