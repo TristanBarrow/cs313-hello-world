@@ -13,8 +13,9 @@
     
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    function get_scripts() {
+    function get_scripts($db) {
       $statement = $db->query('SELECT * FROM scriptures');
+      $statement->execute();
       return $statement->fetchAll(PDO::FETCH_ASSOC);
     }
 ?>
@@ -30,7 +31,7 @@
 </head>
 <body>
 <?php 
-  $scripts = get_scripts();
+  $scripts = get_scripts($db);
   var_dump($scripts);
 ?>
 </body>
