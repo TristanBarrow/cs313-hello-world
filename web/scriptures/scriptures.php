@@ -30,10 +30,15 @@
   <title>Document</title>
 </head>
 <body>
+<h1>Scripture Resources</h1>
 <?php 
   $scripts = get_scripts($db);
   foreach($scripts as $script) {
-    echo $script['book'] . "<br>";
+    $book = $script['book'];
+    $chapter = $script['chapter'];
+    $verse = $script['verse'];
+    $content = $script['content'];
+    require('./scripture.php');
   }
 ?>
 </body>

@@ -1,0 +1,1 @@
+<span><?php echo $book . " " . $chapter . ":" . $verse . " - \"" . $content . "\""; ?></span>
