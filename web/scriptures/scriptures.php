@@ -15,7 +15,8 @@
 
     function get_scripts() {
       $statement = $db->query('SELECT username, password FROM note_user');
-      return $statement->fetchall(PDO::FETCH_ASSOC);
+      echo $arr = $statement->errorInfo();
+      //return $statement->fetchall(PDO::FETCH_ASSOC);
     }
 ?>
 
