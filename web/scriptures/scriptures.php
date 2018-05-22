@@ -32,7 +32,9 @@
 <body>
 <?php 
   $scripts = get_scripts($db);
-  var_dump($scripts);
+  foreach($scripts as $script) {
+    echo $script['book'] . "<br>";
+  }
 ?>
 </body>
 </html>
