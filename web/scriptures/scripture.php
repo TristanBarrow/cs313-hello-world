@@ -1,1 +1,1 @@
-<span><?php echo $book . " " . $chapter . ":" . $verse . " - \"" . $content . "\""; ?></span>
+<p><b><?php echo $book . " " . $chapter . ":" . $verse;?></b><?php echo " - \"" . $content . "\""; ?></p>
