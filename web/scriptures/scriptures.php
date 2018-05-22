@@ -14,9 +14,8 @@
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     function get_scripts() {
-      $statement = $db->query('SELECT username, password FROM note_user');
-      echo $arr = $statement->errorInfo();
-      //return $statement->fetchall(PDO::FETCH_ASSOC);
+      $statement = $db->query('SELECT * FROM scriptures');
+      return $statement->fetchAll(PDO::FETCH_ASSOC);
     }
 ?>
 
@@ -32,9 +31,7 @@
 <body>
 <?php 
   $scripts = get_scripts();
-  foreach($scripts as $script) {
-    echo $script['book'] . "<br>";
-  }
+  var_dump($scripts);
 ?>
 </body>
 </html>
