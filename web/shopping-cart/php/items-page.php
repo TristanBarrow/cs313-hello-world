@@ -20,7 +20,7 @@
     foreach ($items as $item) {
       require("./item.php");
     }
-
+    
   ?> 
 
   </div>
