@@ -1,6 +1,8 @@
 <p><b><?php echo $book . " " . $chapter . ":" . $verse;?></b><?php echo " - \"" . $content . "\""; ?></p>
-<!-- <ul>
+<ul>
   <?php 
-    var_dump($topics);
+    foreach ($topics as $topic) {
+      echo "<li>" . $topic['topic'] . "</li>";
+    } 
   ?>
-</ul> -->
+</ul>
