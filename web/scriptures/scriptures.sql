@@ -45,7 +45,9 @@ FROM scriptures s
 INNER JOIN scriptures_topics st ON s.id = st.scripture
 INNER JOIN topics t on st.topic = t.id;
 
-SELECT t.topic
-FROM scriptures_topics st
-INNER JOIN topics t ON st.topic = t.id
-WHERE st.scripture = 1;
+-- SELECT t.topic
+-- FROM scriptures_topics st
+-- INNER JOIN topics t ON st.topic = t.id
+-- WHERE st.scripture = 1;
+
+SELECT t.topic AS topic FROM scriptures_topics st INNER JOIN topics t ON st.topic = t.id WHERE st.scripture = 1;

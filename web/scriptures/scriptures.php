@@ -22,6 +22,7 @@
     function get_topics($db, $id) {
       $statement = $db->query('SELECT t.topic AS topic FROM scriptures_topics st INNER JOIN topics t ON st.topic = t.id WHERE st.scripture = :id');
       $statement->bindValue(':id', $id, PDO::PARAM_INT);
+      $statement->errorInfo();
       $statement->execute();
       return $statement->fetchAll(PDO::FETCH_ASSOC);
     }
@@ -41,12 +42,13 @@
 <?php 
   $scripts = get_scripts($db);
   foreach($scripts as $script) {
-    $scripId = $script['id'];
+    echo $scripId = $script['id'];
     $book = $script['book'];
     $chapter = $script['chapter'];
     $verse = $script['verse'];
     $content = $script['content'];
-    $topics = get_topics($db, $scripId);
+    //$topics = get_topics($db, $scripId);
+    //var_dump($topics);
     require('./scripture.php');
   }
 ?>
