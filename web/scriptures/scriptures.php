@@ -42,13 +42,12 @@
 <?php 
   $scripts = get_scripts($db);
   foreach($scripts as $script) {
-    echo $scripId = $script['id'];
     $book = $script['book'];
     $chapter = $script['chapter'];
     $verse = $script['verse'];
     $content = $script['content'];
-    //$topics = get_topics($db, $scripId);
-    //var_dump($topics);
+    $topics = get_topics($db, $script['id']);
+    // var_dump($topics);
     require('./scripture.php');
   }
 ?>
