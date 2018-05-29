@@ -20,8 +20,7 @@
     }
     
     function get_topics($db, $id) {
-      echo $id;
-      $statement = $db->query('SELECT t.topic AS topic FROM scriptures_topics st INNER JOIN topics t ON st.topic = t.id WHERE st.scripture = :id');
+      $statement = $db->prepare('SELECT t.topic AS topic FROM scriptures_topics st INNER JOIN topics t ON st.topic = t.id WHERE st.scripture = :id');
       $statement->bindValue(':id', $id, PDO::PARAM_INT);
       $statement->execute();
       return $statement->fetchAll(PDO::FETCH_ASSOC);
