@@ -25,6 +25,9 @@
 </head>
 <body>
   <?php
+    $name = $course['name'];
+    $number = $course['number'];
+
     echo "<h1>showing notes for: $number - $name</h1>";
   ?>
 </body>
