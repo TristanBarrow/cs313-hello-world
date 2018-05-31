@@ -31,5 +31,11 @@
 
     echo "<h1>showing notes for: $number - $name</h1>";
   ?>
+  <form action="insertNote.php" method="POST">
+    <input type="hidden" name="course_id" value="<?php?>">
+    <input type="date" name='date'><br>
+    <textarea name="content" cols="30" rows="10"></textarea>
+    <input type="submit">
+    
 </body>
 </html>
