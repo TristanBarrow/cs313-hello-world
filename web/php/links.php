@@ -2,7 +2,8 @@
   $links = array(
     './php/hello-world.php' => 'Hello World',
     './shopping-cart/php/items-page.php' => 'Shopping Cart',
-    './scriptures/scriptures.php' => 'Scriptures'
+    './scriptures/scriptures.php' => 'Scriptures',
+    'https://joltz.herokuapp.com/' => 'JOLTZ'
   );
 
 
