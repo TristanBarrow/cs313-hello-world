@@ -1,5 +1,5 @@
-DROP TABLE course;
 DROP TABLE note;
+DROP TABLE course;
 
 CREATE TABLE course
 (
@@ -18,3 +18,5 @@ CREATE TABLE note
 
 INSERT INTO course(name, number) VALUES ('Web Engineering II', 'CS 313');
 INSERT INTO course(name, number) VALUES ('Object-oriented Programming', 'CS 165');
+
+SELECT id, name, number FROM course;
