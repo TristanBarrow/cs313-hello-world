@@ -11,7 +11,7 @@
     // Bind values
   $stmt->bindValue(":id", $courseId, PDO::PARAM_INT);
   $stmt->execute();
-  $course = $stmt->fetchAll(PDO::FETCH_ASSOC);
+  $course = $stmt->fetch(PDO::FETCH_ASSOC);
 
 ?>
 
