@@ -23,9 +23,10 @@
   <ul>
   <?php
     foreach ($courses as $course) {
+      $id = $course['id'];
       $name = $course['name'];
       $number = $course['number'];
-      echo "<li>$number - $name</li>"; 
+      echo "<li><a href='./course.php?course_id=$id'>$number - $name</a></li>";
     }
   ?>
   </ul>
