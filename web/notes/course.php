@@ -25,7 +25,6 @@
 </head>
 <body>
   <?php
-  var_dump($course);
     $name = $course['name'];
     $number = $course['number'];
 
@@ -36,6 +35,6 @@
     <input type="date" name='date'><br>
     <textarea name="content" cols="30" rows="10"></textarea>
     <input type="submit">
-    
+
 </body>
 </html>
