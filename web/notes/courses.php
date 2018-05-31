@@ -20,8 +20,14 @@
 </head>
 <body>
   <h1>Courses</h1>
+  <ul>
   <?php
-    var_dump($courses);
+    foreach ($courses as $course) {
+      $name = $course['name'];
+      $number = $course['number'];
+      echo "<li>$number - $name</li>"; 
+    }
   ?>
+  </ul>
 </body>
 </html>
