@@ -11,8 +11,8 @@
 
   $stmt = $db->prepare($query);
   $stmt->bindValue(":id", $id, PDO::PARAM_INT);
-  $stmt->bindValue(":date", $date, PDO::PARAM_INT);
-  $stmt->bindValue(":content", $content, PDO::PARAM_INT);
+  $stmt->bindValue(":date", $date, PDO::PARAM_STR);
+  $stmt->bindValue(":content", $content, PDO::PARAM_STR);
   // Bind values
   $stmt->execute();
 
