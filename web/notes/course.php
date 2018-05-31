@@ -25,6 +25,7 @@
 </head>
 <body>
   <?php
+  var_dump($course);
     $name = $course['name'];
     $number = $course['number'];
 
