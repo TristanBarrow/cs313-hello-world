@@ -8,7 +8,7 @@
   $query = "SELECT id, name, number FROM course";
   $stmt = $db->prepare($query);
   // Bind values
-  $stmt->exec();
+  $stmt->execute();
   $courses = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 ?>
