@@ -25,7 +25,7 @@
 </head>
 <body>
   <?php
-    var_dump($course);
+    echo "<h1>showing notes for: $number - $name</h1>";
   ?>
 </body>
 </html>
