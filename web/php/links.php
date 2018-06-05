@@ -3,7 +3,7 @@
     './php/hello-world.php' => 'Hello World',
     './shopping-cart/php/items-page.php' => 'Shopping Cart',
     './scriptures/scriptures.php' => 'Scriptures',
-    './logginIn/register.php' => 'Logging In',
+    './loggingIn/register.php' => 'Logging In',
     'https://joltz.herokuapp.com/' => 'JOLTZ'
   );
 
