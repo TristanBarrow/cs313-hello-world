@@ -22,7 +22,7 @@
   <div class='body'>
     <h1 class='body__title'>My Assignments</h1>
     <div class="body__links">
-        <div class='links'> -->
+        <div class='links'>
           <?php 
             require("./php/links.php"); 
           ?>
